@@ -353,6 +353,9 @@ class FlutterMentionsState extends State<FlutterMentions> {
                   controller.selection = TextSelection.fromPosition(
                       TextPosition(offset: nextCursorPosition));
 
+                  if (widget.onChanged != null)
+                    widget.onChanged(controller.text);
+
                   setState(() {
                     _showSuggestions = false;
                   });
