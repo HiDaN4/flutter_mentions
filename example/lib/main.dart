@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           'id': '61as61fsa',
                           'display': 'fayeedP',
                           'full_name': 'Fayeed Pawaskar',
-                          'searchable_text': 'fayeed pawaskar',
+                          'searchable_text': 'fayeedP fayeed pawaskar',
                           'photo':
                               'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
                         },

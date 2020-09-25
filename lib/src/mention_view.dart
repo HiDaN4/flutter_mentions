@@ -249,7 +249,7 @@ class FlutterMentionsState extends State<FlutterMentions> {
       }
 
       element.data
-          ?.forEach((e) => (e['searchable_text'] as String).split(' Z').forEach(
+          ?.forEach((e) => (e['searchable_text'] as String).split(' ').forEach(
                 (text) => data['${element.trigger}$text'] = e['style'] != null
                     ? Annotation(
                         style: e['style'],
